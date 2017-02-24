@@ -5,7 +5,7 @@ if (defined $ARGV[0]){
 	$ip=$ARGV[0];
 }else{
 	print "\n\tUsage: check_ip.pl IP_ADDRESS\n";
-	print "\n\tExample perl check_ip.pl 192.168.0.1\n\n";
+	print "\n\tExample: perl check_ip.pl 192.168.0.1\n\n";
 	exit;
 }
 
